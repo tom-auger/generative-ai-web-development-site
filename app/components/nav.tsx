@@ -4,11 +4,14 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/blog': {
+  'https://genaiforwebdev.substack.com/': {
     name: 'blog',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  '/corrections': {
+    name: 'corrections',
+  },
+  'https://link.springer.com/book/10.1007/979-8-8688-0885-2': {
+    name: 'buy the book',
   },
 }
 

@@ -77,7 +77,7 @@ export default function Blog({ params }) {
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: 'Tom Auger & Emma Saroyan',
             },
           }),
         }}
@@ -88,6 +88,9 @@ export default function Blog({ params }) {
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(post.metadata.publishedAt)}
+        </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          From <i>Generative AI for Web Development</i> by Tom Auger & Emma Saroyan
         </p>
       </div>
       <article className="prose">
