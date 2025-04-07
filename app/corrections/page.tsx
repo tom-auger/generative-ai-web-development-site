@@ -30,13 +30,13 @@ export default function CorrectionsPage() {
           <div className="mb-2">
             <p className="font-medium">Original text:</p>
             <p className="text-neutral-600 dark:text-neutral-400 mb-2 pl-4">
-              "Having a high-level understanding of how LLMs like ChatGPT work is helpful for understanding their limitations and how to best to tune them to specific use cases."
+              "Having a high-level understanding of how LLMs like ChatGPT work is helpful for understanding their limitations and how to best to tune them to your use cases"
             </p>
           </div>
           <div>
             <p className="font-medium">Correction:</p>
             <p className="text-neutral-600 dark:text-neutral-400 pl-4">
-              "Having a high-level understanding of how LLMs like ChatGPT work is helpful for understanding their limitations and how to best adapt them to specific use cases."
+              "Having a high-level understanding of how LLMs like ChatGPT work is helpful for understanding their limitations and effectively adapting them to specific use cases."
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function CorrectionsPage() {
           <div className="mb-2">
             <p className="font-medium">Original text:</p>
             <p className="text-neutral-600 dark:text-neutral-400 mb-2 pl-4">
-              "The arguments presented in favor of regulation largely focused on safety concerns, from the dangers of AI-generated disinformation to the potential existential threat posed by a future "superintelligence" that could harm."
+              "The arguments presented in favor of regulation largely focused on safety concerns, from the dangers of AI-generated disinformation to the potential existential threat posed by a future “superintelligence” could harm humanity"
             </p>
           </div>
           <div>
