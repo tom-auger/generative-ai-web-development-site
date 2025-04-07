@@ -8,7 +8,7 @@ export default function CorrectionsPage() {
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Corrections</h1>
       <p className="mb-6 text-neutral-600 dark:text-neutral-400">
-        If you find any errors or have questions about the content, please send them to genaiforwebdev[at]tomauger[dot]am.
+        If you find any errors or have questions about the content, please send them to genaiforwebdev [at] tomauger [dot] am.
       </p>
 
       <div className="mb-8">

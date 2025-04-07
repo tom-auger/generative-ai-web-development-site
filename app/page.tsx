@@ -81,7 +81,7 @@ export default function Page() {
           We maintain a list of <Link href="/corrections" className="text-blue-600 hover:underline">corrections</Link> for the book as they are identified.
         </p>
         <p>
-          Please send any corrections you find to <span className="italic">genaiforwebdev[at]tomauger[dot]am</span>.
+          Please send any corrections you find to <span className="italic">genaiforwebdev [at] tomauger [dot] am</span>.
         </p>
       </div>
     </section>
