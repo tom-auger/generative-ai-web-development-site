@@ -1,6 +1,6 @@
-import { getBlogPosts } from 'app/blog/utils'
-
-export const baseUrl = 'https://portfolio-blog-starter.vercel.app'
+export const baseUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  'https://tom-auger.github.io/generative-ai-web-development-site'
 export const substackUrl = 'https://genaiforwebdev.substack.com/'
 
 export default async function sitemap() {

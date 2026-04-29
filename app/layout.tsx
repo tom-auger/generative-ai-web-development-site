@@ -3,8 +3,6 @@ import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import { Navbar } from './components/nav'
-import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
@@ -22,6 +20,19 @@ export const metadata: Metadata = {
     siteName: 'Generative AI for Web Development',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: `${baseUrl}/og.svg`,
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Generative AI for Web Development',
+    description: 'Building Web Applications Powered by OpenAI APIs and Next.js',
+    images: [`${baseUrl}/og.svg`],
   },
   robots: {
     index: true,
@@ -57,8 +68,6 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <Analytics />
-          <SpeedInsights />
         </main>
       </body>
     </html>
