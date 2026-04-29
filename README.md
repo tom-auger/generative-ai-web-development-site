@@ -1,5 +1,7 @@
 # Generative AI for Web Development
 
+![Generative AI for Web Development book cover](public/book-cover.webp)
+
 This repository contains the website for *Generative AI for Web Development:
 Building Web Applications Powered by OpenAI APIs and Next.js* by Tom Auger and
 Emma Saroyan.
