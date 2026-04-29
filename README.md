@@ -62,7 +62,7 @@ To enable deployment:
 The current default deployment URL is:
 
 ```text
-https://tom-auger.github.io/generative-ai-web-development-site/
+https://genaiforwebdev.com/
 ```
 
 If you configure a custom domain, update the site URL in

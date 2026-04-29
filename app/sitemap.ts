@@ -1,6 +1,5 @@
 export const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  'https://tom-auger.github.io/generative-ai-web-development-site'
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://genaiforwebdev.com'
 export const substackUrl = 'https://genaiforwebdev.substack.com/'
 
 export default async function sitemap() {

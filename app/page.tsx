@@ -1,17 +1,12 @@
 import Link from 'next/link'
 
-const assetBasePath =
-  process.env.GITHUB_ACTIONS === 'true'
-    ? '/generative-ai-web-development-site'
-    : ''
-
 export default function Page() {
   return (
     <section>
       <div className="flex flex-col md:flex-row items-start gap-8">
         <div className="w-full md:w-1/3 mb-6 md:mb-0">
           <img
-            src={`${assetBasePath}/book-cover.webp`}
+            src="/book-cover.webp"
             alt="Generative AI for Web Development book cover"
             width={300}
             height={450}

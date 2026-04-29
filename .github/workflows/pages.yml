@@ -33,7 +33,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://tom-auger.github.io/generative-ai-web-development-site
+          NEXT_PUBLIC_SITE_URL: https://genaiforwebdev.com
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
